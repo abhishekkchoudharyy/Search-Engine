@@ -88,6 +88,11 @@
       <groupId>org.hibernate.validator</groupId>
       <artifactId>hibernate-validator</artifactId>
     </dependency>
+    <dependency>
+      <groupId>com.abhishekkchoudharyy</groupId>
+      <artifactId>search-engine</artifactId>
+      <version>1.0-SNAPSHOT</version>
+    </dependency>
   </dependencies>
 
   <build>
@@ -229,7 +234,7 @@
       </activation>
       <properties>
         <!--
-        Workaround for "javadoc: error - The code being documented uses modules but the packages
+        Workaround for "Javadoc: error - The code being documented uses module but the packages
         defined in https://docs.oracle.com/javase/8/docs/api/ are in the unnamed module."
         -->
         <maven.javadoc.skip>true</maven.javadoc.skip>
