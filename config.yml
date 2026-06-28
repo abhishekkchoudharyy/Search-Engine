@@ -1,0 +1,4 @@
+logging:
+  level: info
+  logger:
+    com.abhishekkchoudharyy: DEBUG

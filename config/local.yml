@@ -1,0 +1,21 @@
+server:
+  adminMinThreads: 1
+  adminMaxThreads: 64
+  enableAdminVirtualThreads: false
+  adminContextPath: /
+  applicationContextPath: /
+  applicationConnectors:
+    - type: http
+      port: 9090
+  adminConnectors:
+    - type: http
+      port: 8081
+
+swagger:
+  resourcePackage: com.abhishekkchoudharyy
+  title: Search_Engine API
+  description: Search_Engine API
+  version: 1.0
+
+CrawlingConfig:
+  maxDepth: 1
